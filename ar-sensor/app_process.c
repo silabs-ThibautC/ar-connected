@@ -24,6 +24,7 @@
 #include "em_chip.h"
 #include "sl_flex_assert.h"
 #include "sl_si70xx.h"
+#include "sl_si1133.h"
 #include "sl_i2cspm_instances.h"
 #include "poll.h"
 #include "sl_app_common.h"
@@ -97,6 +98,17 @@ void report_handler(void)
       sensor_status = EMBER_ERR_FATAL;
       APP_INFO("Warning! Invalid Si7021 reading: %lu %ld\n", rh_data, temp_data);
     }
+
+
+    float lux;
+    float uvi;
+
+    if(SL_STATUS_OK == sl_si1133_measure_lux_uvi(sl_i2cspm_sensor, &lux, &uvi)) {
+        APP_INFO("lux:%f uvi:%f\n", lux, uvi);
+    } else  {
+        APP_INFO("Warning! Invalid si1133 reading\n");
+    }
+
     #endif
 
     if (sensor_status == EMBER_SUCCESS) {

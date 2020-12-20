@@ -389,6 +389,16 @@
 			<locationURI>STUDIO_SDK_LOC/util/third_party/printf/printf.h</locationURI>
 		</link>
 		<link>
+			<name>gecko_sdk_3.1.0/hardware/driver/si1133/inc/sl_si1133.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/hardware/driver/si1133/inc/sl_si1133.h</locationURI>
+		</link>
+		<link>
+			<name>gecko_sdk_3.1.0/hardware/driver/si1133/src/sl_si1133.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/hardware/driver/si1133/src/sl_si1133.c</locationURI>
+		</link>
+		<link>
 			<name>gecko_sdk_3.1.0/hardware/driver/si70xx/inc/sl_si70xx.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/hardware/driver/si70xx/inc/sl_si70xx.h</locationURI>

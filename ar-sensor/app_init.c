@@ -21,6 +21,7 @@
 #include "sl_flex_assert.h"
 #include "sl_app_common.h"
 #include "sl_si70xx.h"
+#include "sl_si1133.h"
 #include "sl_i2cspm_instances.h"
 #include "sl_sleeptimer.h"
 #include "app_process.h"
@@ -61,6 +62,8 @@ void emberAfInitCallback(void)
       APP_INFO("Failed to initialize temperature sensor!\n");
     }
   }
+
+  sl_si1133_init(sl_i2cspm_sensor);
 
   emberAfAllocateEvent(&report_control, &report_handler);
   // CLI info message

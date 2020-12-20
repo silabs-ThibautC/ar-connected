@@ -458,6 +458,14 @@
             </folder>
           </folder>
         </folder>
+        <folder name="si1133">
+          <folder name="src">
+            <file name="sl_si1133.c" uri="file:///C:/SiliconLabs/SimplicityStudio/v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/si1133/src/sl_si1133.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_si1133.h" uri="file:///C:/SiliconLabs/SimplicityStudio/v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/si1133/inc/sl_si1133.h"/>
+          </folder>
+        </folder>
         <folder name="si70xx">
           <folder name="src">
             <file name="sl_si70xx.c" uri="file:///C:/SiliconLabs/SimplicityStudio/v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/si70xx/src/sl_si70xx.c"/>
@@ -674,14 +682,14 @@
       </folder>
     </folder>
   </folder>
-  <file name="main.c" linked="false" uri="file:///C:/SiliconLabs/SimplicityStudio/v5/developer/sdks/gecko_sdk_suite/v3.1/app/flex/example/connect/sensor_sink/sensor/main.c"/>
-  <file name="app_init.c" linked="false" uri="file:///C:/SiliconLabs/SimplicityStudio/v5/developer/sdks/gecko_sdk_suite/v3.1/app/flex/example/connect/sensor_sink/sensor/app_init.c"/>
-  <file name="app_process.c" linked="false" uri="file:///C:/SiliconLabs/SimplicityStudio/v5/developer/sdks/gecko_sdk_suite/v3.1/app/flex/example/connect/sensor_sink/sensor/app_process.c"/>
-  <file name="app_cli.c" linked="false" uri="file:///C:/SiliconLabs/SimplicityStudio/v5/developer/sdks/gecko_sdk_suite/v3.1/app/flex/example/connect/sensor_sink/sensor/app_cli.c"/>
-  <file name="app_init.h" linked="false" uri="file:///C:/SiliconLabs/SimplicityStudio/v5/developer/sdks/gecko_sdk_suite/v3.1/app/flex/example/connect/sensor_sink/sensor/app_init.h"/>
-  <file name="app_process.h" linked="false" uri="file:///C:/SiliconLabs/SimplicityStudio/v5/developer/sdks/gecko_sdk_suite/v3.1/app/flex/example/connect/sensor_sink/sensor/app_process.h"/>
-  <file name="connect_create_gbl_image.bat" linked="false" uri="file:///C:/SiliconLabs/SimplicityStudio/v5/developer/sdks/gecko_sdk_suite/v3.1/app/flex/script/connect_create_gbl_image.bat"/>
-  <file name="connect_create_gbl_image.sh" linked="false" uri="file:///C:/SiliconLabs/SimplicityStudio/v5/developer/sdks/gecko_sdk_suite/v3.1/app/flex/script/connect_create_gbl_image.sh"/>
+  <file name="main.c" linked="false" uri="file:///C:/silabs/ar-connected/ar-sensor/main.c"/>
+  <file name="app_init.c" linked="false" uri="file:///C:/silabs/ar-connected/ar-sensor/app_init.c"/>
+  <file name="app_process.c" linked="false" uri="file:///C:/silabs/ar-connected/ar-sensor/app_process.c"/>
+  <file name="app_cli.c" linked="false" uri="file:///C:/silabs/ar-connected/ar-sensor/app_cli.c"/>
+  <file name="app_init.h" linked="false" uri="file:///C:/silabs/ar-connected/ar-sensor/app_init.h"/>
+  <file name="app_process.h" linked="false" uri="file:///C:/silabs/ar-connected/ar-sensor/app_process.h"/>
+  <file name="connect_create_gbl_image.bat" linked="false" uri="file:///C:/silabs/ar-connected/ar-sensor/connect_create_gbl_image.bat"/>
+  <file name="connect_create_gbl_image.sh" linked="false" uri="file:///C:/silabs/ar-connected/ar-sensor/connect_create_gbl_image.sh"/>
   <includePath uri="studio:/project/"/>
   <includePath uri="studio:/sdk/platform/common/toolchain/inc"/>
   <includePath uri="studio:/sdk/hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_usart"/>
@@ -691,6 +699,7 @@
   <includePath uri="studio:/sdk/platform/service/iostream/inc"/>
   <includePath uri="studio:/sdk/platform/emdrv/nvm3/inc"/>
   <includePath uri="studio:/sdk/app/flex/component/connect/sl_sensor_sink"/>
+  <includePath uri="studio:/sdk/hardware/driver/si1133/inc"/>
   <includePath uri="studio:/sdk/platform/service/device_init/inc"/>
   <includePath uri="studio:/sdk/platform/common/inc"/>
   <includePath uri="studio:/sdk/util/third_party/crypto/mbedtls/include"/>
@@ -723,8 +732,8 @@
   <includePath uri="studio:/sdk/util/third_party/crypto/sl_component/sl_psa_driver/inc"/>
   <includePath uri="studio:/sdk/platform/service/udelay/inc"/>
   <includePath uri="studio:/sdk/platform/service/legacy_hal/inc"/>
-  <includePath uri="studio:/sdk/platform/driver/i2cspm/inc"/>
   <includePath uri="studio:/sdk/platform/service/power_manager/inc"/>
+  <includePath uri="studio:/sdk/platform/driver/i2cspm/inc"/>
   <includePath uri="studio:/sdk/app/flex/component/common/sl_flex_assert"/>
   <includePath uri="studio:/sdk/util/silicon_labs/silabs_core/memory_manager"/>
   <includePath uri="studio:/sdk/platform/service/legacy_printf/inc"/>

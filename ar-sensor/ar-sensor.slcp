@@ -142,6 +142,7 @@ component:
   id: cli
 - {id: brd4166a}
 - {id: sl_sensor_sink_core}
+- {id: si1133_driver}
 - {id: mpu}
 - {id: EFR32MG12P332F1024GL125}
 - instance: [led0]
